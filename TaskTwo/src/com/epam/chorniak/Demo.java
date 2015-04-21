@@ -1,9 +1,26 @@
 package com.epam.chorniak;
 
+import java.util.Scanner;
+
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+        
+			int num = 0;
+						
+		    switch(num) {
+		      case 0:
+		    	  Methods.numbers();  
+		        break;
+		      case 1: 
+		    	  Methods.outMatrix();
+		        break;
+		      case 2: 
+		    	  Methods.inputMatrix();
+		        break;
+		      
+		    }	
+
 
 	}
 
